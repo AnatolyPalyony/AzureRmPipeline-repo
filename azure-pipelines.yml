@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'azurekeyvault'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/AnatolyPalyony/AzureRmPipeline-repo/main/azuredeploy.json?token=ABXW3GT5XHKNDQHUU2PVYLDAJHKD4'
+    csmFileLink: 'https://raw.githubusercontent.com/AnatolyPalyony/AzureRmPipeline-repo/main/azuredeploy.json'
     overrideParameters: '-projectName DepKV1'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
